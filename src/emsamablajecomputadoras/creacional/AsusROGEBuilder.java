@@ -8,26 +8,19 @@ public class AsusROGEBuilder extends ComputadorBuilder {
 		compu.setMarca("Asus");
 		compu.setModelo("ROG");
 		compu.setAlmacenamiento(1000);
-		
+		compu.setRam(32);
 
-	Ram: ddr4 32 gb
-
-•	Sistema operativo: Windows 10 PRO 64 bits
-•	Mainboard : Strix x99
-*/
-		
 	}
 
 	@Override
 	public void construirMainboard() {
-		compu.setPlaca(new Mainboard("",""));
-		compu.
-		
+		compu.setPlaca(new Mainboard("Strix","x99"));
+
 	}
 
 	@Override
 	public void construirSO() {
-		compu.setOs(new SistemaOperativo("", , ));
+		compu.setOs(new SistemaOperativo("Windows 10",64,"PRO"));
 		
 	}
 	 
